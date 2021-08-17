@@ -1,0 +1,38 @@
+/* importing fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* all elements */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+/* body */
+
+body {
+    background: #F6F6F6;
+}
+
+
+/* main card */
+
+.container {
+    background: #7F5BFE;
+    color: white;
+}
+
+
+/* social handles */
+
+.social-handles {
+    background: white;
+}
+
+.social-handles svg {
+    width: 3rem;
+}
