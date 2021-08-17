@@ -19,7 +19,7 @@ body {
     background: #ececec;
     display: flex;
     align-items: center;
-    padding: 4em 0;
+    padding: 4em 0 0 20em;
 }
 
 
@@ -33,7 +33,7 @@ body {
     width: 32em;
     border-radius: 2em;
     padding: 2em 0;
-    margin: 0 0 0 -16.5em;
+    margin: 0 0 0 -7em;
 }
 
 .container h2 {
@@ -79,5 +79,16 @@ body {
 
 .thumbs img {
     margin: -5em 0 0;
-    width: 38em;
+    width: 20em;
+    transform: rotate(-23deg);
+    animation: up-and-down 0.6s ease-in-out forwards infinite alternate;
+}
+
+
+/* animation */
+
+@keyframes up-and-down {
+    0% {
+        transform: translateY(0%)
+    }
 }
