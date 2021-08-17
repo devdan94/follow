@@ -1,8 +1,8 @@
-/* importing fonts */
+/*==== importing fonts ====*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* all elements */
+/*==== all elements ====*/
 
 * {
     padding: 0;
@@ -12,22 +12,25 @@
 }
 
 
-/* body */
+/*==== body ====*/
 
 body {
     background: #F6F6F6;
+    display: flex;
 }
 
 
-/* main card */
+/*==== main card ===*/
 
 .container {
     background: #7F5BFE;
     color: white;
+    height: 40em;
+    width: 40em;
 }
 
 
-/* social handles */
+/*==== social handles ====*/
 
 .social-handles {
     background: white;
@@ -35,4 +38,11 @@ body {
 
 .social-handles svg {
     width: 3rem;
+}
+
+
+/*==== thumbs up container =====*/
+
+.thumbs img {
+    width: 20em;
 }
