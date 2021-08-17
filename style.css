@@ -20,6 +20,8 @@ body {
     display: flex;
     align-items: center;
     padding: 4em 0 0 20em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
