@@ -9,24 +9,46 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
+    /* transition: all ease-in-out 0.6s; */
 }
 
 
 /*==== body ====*/
 
 body {
-    background: #F6F6F6;
+    background: #ececec;
     display: flex;
+    align-items: center;
+    padding: 4em 0;
 }
 
 
 /*==== main card ===*/
 
 .container {
+    z-index: -1;
     background: #7F5BFE;
     color: white;
-    height: 40em;
-    width: 40em;
+    height: 25em;
+    width: 32em;
+    border-radius: 2em;
+    padding: 2em 0;
+    margin: 0 0 0 -16.5em;
+}
+
+.container h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: .07em;
+    font-weight: 700;
+    padding: 0 0 0 5em;
+}
+
+.container p {
+    margin: .4em 0 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0 0 0 8.32em;
 }
 
 
@@ -34,15 +56,28 @@ body {
 
 .social-handles {
     background: white;
+    height: 50%;
+    margin: 5.5em 0;
+    border-radius: 2em;
+    display: flex;
+    padding: 0 4em 0 4em;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-handles svg {
     width: 3rem;
+    fill: #7F5BFE;
+}
+
+.social-handles a {
+    margin: 2em;
 }
 
 
 /*==== thumbs up container =====*/
 
 .thumbs img {
-    width: 20em;
+    margin: -5em 0 0;
+    width: 38em;
 }
